@@ -1,0 +1,84 @@
+{
+    "title": "my-title", // app title
+    "numberOfPartecipants": 6, // a number greater than 1
+    "numberOfLevels": 8, // TODO: do I need this?
+    "levels": [
+        {
+            "levelTitle": "quest #1",
+            "questionType": "text",
+            "question": "You arrive at a road fork, at your ..... what do you do?",
+            "answers": [
+                {
+                    "answer": "Turn Back",
+                    "correct": false
+                },
+                {
+                    "answer": "Turn Back 2",
+                    "correct": false
+                },
+                {
+                    "answer": "Turn Back 3",
+                    "correct": false
+                },
+                {
+                    "answer": "Go Ahead",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "levelTitle": "quest #2",
+            "questionType": "music",
+            "question": "Which song is this",
+            "multimedia": {
+                "filePath":"res/audio/audio1.mp3",
+                "fileFormat":".mp3"
+            },
+            "answers": [
+                {
+                    "answer": "Mia Khalifa",
+                    "correct": false
+                },
+                {
+                    "answer": "Turn Back 2",
+                    "correct": false
+                },
+                {
+                    "answer": "Music 3",
+                    "correct": false
+                },
+                {
+                    "answer": "3",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "levelTitle": "quest #3",
+            "questionType": "image",
+            "question": "Choose what image is from Lupin III",
+            "answers": [
+                {
+                    "answer": "Img 1",
+                    "filePath": "res/img/img1.jpg",
+                    "correct": false
+                },
+                {
+                    "answer": "Img 2",
+                    "filePath": "res/img/img2.jpg",
+                    "correct": false
+                },
+                {
+                    "answer": "Img 3",
+                    "filePath": "res/img/img3.jpg",
+                    "correct": false
+                },
+                {
+                    "answer": "Img 4",
+                    "filePath": "res/img/img4.jpg",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}
